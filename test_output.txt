@@ -1,0 +1,953 @@
+00:00 +0: loading /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart                                                                                                00:01 +0: loading /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart                                                                                                test/integration_test.dart:21:44: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+    assignmentProvider = AssignmentProvider(storageService);
+                                           ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:22:38: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+    sessionProvider = SessionProvider(storageService);
+                                     ^
+lib/providers/session_provider.dart:10:7: Context: The class 'SessionProvider' has a constructor that takes no arguments.
+class SessionProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:37:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.summative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:36:9: Error: No named parameter with the name 'course'.
+        course: 'Software Engineering',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:49:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newProvider = AssignmentProvider(storageService);
+                                            ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:56:50: Error: Undefined name 'AssignmentType'.
+      expect(newProvider.assignments.first.type, AssignmentType.summative);
+                                                 ^^^^^^^^^^^^^^
+test/integration_test.dart:68:17: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+test/integration_test.dart:67:11: Error: No named parameter with the name 'course'.
+          course: 'Test Course',
+          ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:86:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newProvider = AssignmentProvider(storageService);
+                                            ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:99:17: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+test/integration_test.dart:102:29: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.present,
+                            ^^^^^^^^^^^^^^^^
+test/integration_test.dart:99:11: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:107:17: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+test/integration_test.dart:110:29: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.present,
+                            ^^^^^^^^^^^^^^^^
+test/integration_test.dart:107:11: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:115:17: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+test/integration_test.dart:118:29: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.present,
+                            ^^^^^^^^^^^^^^^^
+test/integration_test.dart:115:11: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:123:17: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+test/integration_test.dart:126:29: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.absent,
+                            ^^^^^^^^^^^^^^^^
+test/integration_test.dart:123:11: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:141:15: Error: Undefined name 'SessionType'.
+        type: SessionType.classSession,
+              ^^^^^^^^^^^
+test/integration_test.dart:144:27: Error: Undefined name 'AttendanceStatus'.
+        attendanceStatus: AttendanceStatus.present,
+                          ^^^^^^^^^^^^^^^^
+test/integration_test.dart:141:9: Error: No named parameter with the name 'type'.
+        type: SessionType.classSession,
+        ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:153:15: Error: Undefined name 'SessionType'.
+        type: SessionType.classSession,
+              ^^^^^^^^^^^
+test/integration_test.dart:156:27: Error: Undefined name 'AttendanceStatus'.
+        attendanceStatus: AttendanceStatus.absent,
+                          ^^^^^^^^^^^^^^^^
+test/integration_test.dart:153:9: Error: No named parameter with the name 'type'.
+        type: SessionType.classSession,
+        ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:170:17: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+test/integration_test.dart:169:11: Error: No named parameter with the name 'course'.
+          course: 'Test',
+          ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:184:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newProvider = AssignmentProvider(storageService);
+                                            ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:197:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:196:9: Error: No named parameter with the name 'course'.
+        course: 'Original Course',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:209:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.summative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:208:9: Error: No named parameter with the name 'course'.
+        course: 'Updated Course',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:220:27: Error: Undefined name 'AssignmentType'.
+      expect(edited.type, AssignmentType.summative);
+                          ^^^^^^^^^^^^^^
+test/integration_test.dart:224:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newProvider = AssignmentProvider(storageService);
+                                            ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:244:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:243:9: Error: No named parameter with the name 'course'.
+        course: 'Test',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:253:15: Error: Undefined name 'SessionType'.
+        type: SessionType.classSession,
+              ^^^^^^^^^^^
+test/integration_test.dart:256:27: Error: Undefined name 'AttendanceStatus'.
+        attendanceStatus: AttendanceStatus.present,
+                          ^^^^^^^^^^^^^^^^
+test/integration_test.dart:253:9: Error: No named parameter with the name 'type'.
+        type: SessionType.classSession,
+        ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:267:30: Error: Undefined name 'AssignmentType'.
+          type: i % 2 == 0 ? AssignmentType.summative : AssignmentType.formative,
+                             ^^^^^^^^^^^^^^
+test/integration_test.dart:267:57: Error: Undefined name 'AssignmentType'.
+          type: i % 2 == 0 ? AssignmentType.summative : AssignmentType.formative,
+                                                        ^^^^^^^^^^^^^^
+test/integration_test.dart:266:11: Error: No named parameter with the name 'course'.
+          course: 'Course $i',
+          ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:277:17: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+test/integration_test.dart:281:15: Error: Undefined name 'AttendanceStatus'.
+            ? AttendanceStatus.absent 
+              ^^^^^^^^^^^^^^^^
+test/integration_test.dart:282:15: Error: Undefined name 'AttendanceStatus'.
+            : AttendanceStatus.present,
+              ^^^^^^^^^^^^^^^^
+test/integration_test.dart:277:11: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:290:55: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newAssignmentProvider = AssignmentProvider(storageService);
+                                                      ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:294:49: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newSessionProvider = SessionProvider(storageService);
+                                                ^
+lib/providers/session_provider.dart:10:7: Context: The class 'SessionProvider' has a constructor that takes no arguments.
+class SessionProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:308:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:307:9: Error: No named parameter with the name 'course'.
+        course: 'Test',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:317:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:316:9: Error: No named parameter with the name 'course'.
+        course: 'Test',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:326:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:325:9: Error: No named parameter with the name 'course'.
+        course: 'Test',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:335:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:334:9: Error: No named parameter with the name 'course'.
+        course: 'Test',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:356:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:355:9: Error: No named parameter with the name 'course'.
+        course: 'Valid Course',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:367:15: Error: Undefined name 'SessionType'.
+        type: SessionType.classSession,
+              ^^^^^^^^^^^
+test/integration_test.dart:367:9: Error: No named parameter with the name 'type'.
+        type: SessionType.classSession,
+        ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:382:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:381:9: Error: No named parameter with the name 'course'.
+        course: 'Course',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:390:15: Error: Undefined name 'SessionType'.
+        type: SessionType.classSession,
+              ^^^^^^^^^^^
+test/integration_test.dart:393:27: Error: Undefined name 'AttendanceStatus'.
+        attendanceStatus: AttendanceStatus.present,
+                          ^^^^^^^^^^^^^^^^
+test/integration_test.dart:390:9: Error: No named parameter with the name 'type'.
+        type: SessionType.classSession,
+        ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:397:55: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newAssignmentProvider = AssignmentProvider(storageService);
+                                                      ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:400:49: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newSessionProvider = SessionProvider(storageService);
+                                                ^
+lib/providers/session_provider.dart:10:7: Context: The class 'SessionProvider' has a constructor that takes no arguments.
+class SessionProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:418:15: Error: Undefined name 'AssignmentType'.
+        type: AssignmentType.formative,
+              ^^^^^^^^^^^^^^
+test/integration_test.dart:417:9: Error: No named parameter with the name 'course'.
+        course: 'Course',
+        ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:435:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newProvider = AssignmentProvider(storageService);
+                                            ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:457:15: Error: Undefined name 'SessionType'.
+        type: SessionType.classSession,
+              ^^^^^^^^^^^
+test/integration_test.dart:460:27: Error: Undefined name 'AttendanceStatus'.
+        attendanceStatus: AttendanceStatus.notRecorded,
+                          ^^^^^^^^^^^^^^^^
+test/integration_test.dart:457:9: Error: No named parameter with the name 'type'.
+        type: SessionType.classSession,
+        ^^^^
+lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+  AcademicSession({
+  ^^^^^^^^^^^^^^^
+test/integration_test.dart:474:17: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+test/integration_test.dart:473:11: Error: No named parameter with the name 'course'.
+          course: 'Course',
+          ^^^^^^
+lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+  Assignment({
+  ^^^^^^^^^^
+test/integration_test.dart:497:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      final newProvider = AssignmentProvider(storageService);
+                                            ^
+lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+class AssignmentProvider with ChangeNotifier {
+      ^
+test/integration_test.dart:75:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+      expect(assignmentProvider.activeAssignments.length, 3);
+                                ^^^^^^^^^^^^^^^^^
+test/integration_test.dart:79:26: Error: The method 'toggleAssignmentCompletion' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing method, or defining a method named 'toggleAssignmentCompletion'.
+      assignmentProvider.toggleAssignmentCompletion(firstAssignment.id);
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:82:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+      expect(assignmentProvider.activeAssignments.length, 2);
+                                ^^^^^^^^^^^^^^^^^
+test/integration_test.dart:135:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, 75.0);
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:147:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, 80.0);
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:159:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, closeTo(66.67, 0.01));
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:214:42: Error: Too few positional arguments: 2 required, 1 given.
+      assignmentProvider.updateAssignment(updated);
+                                         ^
+test/integration_test.dart:219:21: Error: The getter 'course' isn't defined for the type 'Assignment'.
+ - 'Assignment' is from 'lib/models/assignment.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'course'.
+      expect(edited.course, 'Updated Course');
+                    ^^^^^^
+test/integration_test.dart:220:21: Error: The getter 'type' isn't defined for the type 'Assignment'.
+ - 'Assignment' is from 'lib/models/assignment.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'type'.
+      expect(edited.type, AssignmentType.summative);
+                    ^^^^
+test/integration_test.dart:235:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+      expect(assignmentProvider.activeAssignments.length, 0);
+                                ^^^^^^^^^^^^^^^^^
+test/integration_test.dart:237:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, 0.0);
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:259:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, 100.0);
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:341:41: Error: The getter 'assignmentsByDueDate' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'assignmentsByDueDate'.
+      final sorted = assignmentProvider.assignmentsByDueDate;
+                                        ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:427:26: Error: The method 'toggleAssignmentCompletion' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing method, or defining a method named 'toggleAssignmentCompletion'.
+      assignmentProvider.toggleAssignmentCompletion('1');
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:444:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+      expect(assignmentProvider.activeAssignments.length, 0);
+                                ^^^^^^^^^^^^^^^^^
+test/integration_test.dart:450:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, 0.0);
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:464:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+ - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+      expect(sessionProvider.attendancePercentage, 0.0);
+                             ^^^^^^^^^^^^^^^^^^^^
+test/integration_test.dart:484:28: Error: The method 'toggleAssignmentCompletion' isn't defined for the type 'AssignmentProvider'.
+ - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+Try correcting the name to the name of an existing method, or defining a method named 'toggleAssignmentCompletion'.
+        assignmentProvider.toggleAssignmentCompletion('$i');
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+00:01 +0 -1: loading /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart [E]                                                                                         
+  Failed to load "/home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart":
+  Compilation failed for testPath=/home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart: test/integration_test.dart:21:44: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+      assignmentProvider = AssignmentProvider(storageService);
+                                             ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:22:38: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+      sessionProvider = SessionProvider(storageService);
+                                       ^
+  lib/providers/session_provider.dart:10:7: Context: The class 'SessionProvider' has a constructor that takes no arguments.
+  class SessionProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:37:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.summative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:36:9: Error: No named parameter with the name 'course'.
+          course: 'Software Engineering',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:49:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newProvider = AssignmentProvider(storageService);
+                                              ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:56:50: Error: Undefined name 'AssignmentType'.
+        expect(newProvider.assignments.first.type, AssignmentType.summative);
+                                                   ^^^^^^^^^^^^^^
+  test/integration_test.dart:68:17: Error: Undefined name 'AssignmentType'.
+            type: AssignmentType.formative,
+                  ^^^^^^^^^^^^^^
+  test/integration_test.dart:67:11: Error: No named parameter with the name 'course'.
+            course: 'Test Course',
+            ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:86:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newProvider = AssignmentProvider(storageService);
+                                              ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:99:17: Error: Undefined name 'SessionType'.
+            type: SessionType.classSession,
+                  ^^^^^^^^^^^
+  test/integration_test.dart:102:29: Error: Undefined name 'AttendanceStatus'.
+            attendanceStatus: AttendanceStatus.present,
+                              ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:99:11: Error: No named parameter with the name 'type'.
+            type: SessionType.classSession,
+            ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:107:17: Error: Undefined name 'SessionType'.
+            type: SessionType.classSession,
+                  ^^^^^^^^^^^
+  test/integration_test.dart:110:29: Error: Undefined name 'AttendanceStatus'.
+            attendanceStatus: AttendanceStatus.present,
+                              ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:107:11: Error: No named parameter with the name 'type'.
+            type: SessionType.classSession,
+            ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:115:17: Error: Undefined name 'SessionType'.
+            type: SessionType.classSession,
+                  ^^^^^^^^^^^
+  test/integration_test.dart:118:29: Error: Undefined name 'AttendanceStatus'.
+            attendanceStatus: AttendanceStatus.present,
+                              ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:115:11: Error: No named parameter with the name 'type'.
+            type: SessionType.classSession,
+            ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:123:17: Error: Undefined name 'SessionType'.
+            type: SessionType.classSession,
+                  ^^^^^^^^^^^
+  test/integration_test.dart:126:29: Error: Undefined name 'AttendanceStatus'.
+            attendanceStatus: AttendanceStatus.absent,
+                              ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:123:11: Error: No named parameter with the name 'type'.
+            type: SessionType.classSession,
+            ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:141:15: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+  test/integration_test.dart:144:27: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.present,
+                            ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:141:9: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:153:15: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+  test/integration_test.dart:156:27: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.absent,
+                            ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:153:9: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:170:17: Error: Undefined name 'AssignmentType'.
+            type: AssignmentType.formative,
+                  ^^^^^^^^^^^^^^
+  test/integration_test.dart:169:11: Error: No named parameter with the name 'course'.
+            course: 'Test',
+            ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:184:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newProvider = AssignmentProvider(storageService);
+                                              ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:197:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:196:9: Error: No named parameter with the name 'course'.
+          course: 'Original Course',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:209:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.summative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:208:9: Error: No named parameter with the name 'course'.
+          course: 'Updated Course',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:220:27: Error: Undefined name 'AssignmentType'.
+        expect(edited.type, AssignmentType.summative);
+                            ^^^^^^^^^^^^^^
+  test/integration_test.dart:224:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newProvider = AssignmentProvider(storageService);
+                                              ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:244:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:243:9: Error: No named parameter with the name 'course'.
+          course: 'Test',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:253:15: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+  test/integration_test.dart:256:27: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.present,
+                            ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:253:9: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:267:30: Error: Undefined name 'AssignmentType'.
+            type: i % 2 == 0 ? AssignmentType.summative : AssignmentType.formative,
+                               ^^^^^^^^^^^^^^
+  test/integration_test.dart:267:57: Error: Undefined name 'AssignmentType'.
+            type: i % 2 == 0 ? AssignmentType.summative : AssignmentType.formative,
+                                                          ^^^^^^^^^^^^^^
+  test/integration_test.dart:266:11: Error: No named parameter with the name 'course'.
+            course: 'Course $i',
+            ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:277:17: Error: Undefined name 'SessionType'.
+            type: SessionType.classSession,
+                  ^^^^^^^^^^^
+  test/integration_test.dart:281:15: Error: Undefined name 'AttendanceStatus'.
+              ? AttendanceStatus.absent 
+                ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:282:15: Error: Undefined name 'AttendanceStatus'.
+              : AttendanceStatus.present,
+                ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:277:11: Error: No named parameter with the name 'type'.
+            type: SessionType.classSession,
+            ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:290:55: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newAssignmentProvider = AssignmentProvider(storageService);
+                                                        ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:294:49: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newSessionProvider = SessionProvider(storageService);
+                                                  ^
+  lib/providers/session_provider.dart:10:7: Context: The class 'SessionProvider' has a constructor that takes no arguments.
+  class SessionProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:308:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:307:9: Error: No named parameter with the name 'course'.
+          course: 'Test',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:317:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:316:9: Error: No named parameter with the name 'course'.
+          course: 'Test',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:326:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:325:9: Error: No named parameter with the name 'course'.
+          course: 'Test',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:335:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:334:9: Error: No named parameter with the name 'course'.
+          course: 'Test',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:356:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:355:9: Error: No named parameter with the name 'course'.
+          course: 'Valid Course',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:367:15: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+  test/integration_test.dart:367:9: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:382:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:381:9: Error: No named parameter with the name 'course'.
+          course: 'Course',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:390:15: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+  test/integration_test.dart:393:27: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.present,
+                            ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:390:9: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:397:55: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newAssignmentProvider = AssignmentProvider(storageService);
+                                                        ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:400:49: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newSessionProvider = SessionProvider(storageService);
+                                                  ^
+  lib/providers/session_provider.dart:10:7: Context: The class 'SessionProvider' has a constructor that takes no arguments.
+  class SessionProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:418:15: Error: Undefined name 'AssignmentType'.
+          type: AssignmentType.formative,
+                ^^^^^^^^^^^^^^
+  test/integration_test.dart:417:9: Error: No named parameter with the name 'course'.
+          course: 'Course',
+          ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:435:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newProvider = AssignmentProvider(storageService);
+                                              ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:457:15: Error: Undefined name 'SessionType'.
+          type: SessionType.classSession,
+                ^^^^^^^^^^^
+  test/integration_test.dart:460:27: Error: Undefined name 'AttendanceStatus'.
+          attendanceStatus: AttendanceStatus.notRecorded,
+                            ^^^^^^^^^^^^^^^^
+  test/integration_test.dart:457:9: Error: No named parameter with the name 'type'.
+          type: SessionType.classSession,
+          ^^^^
+  lib/models/academic_session.dart:17:3: Context: Found this candidate, but the arguments don't match.
+    AcademicSession({
+    ^^^^^^^^^^^^^^^
+  test/integration_test.dart:474:17: Error: Undefined name 'AssignmentType'.
+            type: AssignmentType.formative,
+                  ^^^^^^^^^^^^^^
+  test/integration_test.dart:473:11: Error: No named parameter with the name 'course'.
+            course: 'Course',
+            ^^^^^^
+  lib/models/assignment.dart:13:3: Context: Found this candidate, but the arguments don't match.
+    Assignment({
+    ^^^^^^^^^^
+  test/integration_test.dart:497:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+  Try removing the extra positional arguments.
+        final newProvider = AssignmentProvider(storageService);
+                                              ^
+  lib/providers/assignment_provider.dart:10:7: Context: The class 'AssignmentProvider' has a constructor that takes no arguments.
+  class AssignmentProvider with ChangeNotifier {
+        ^
+  test/integration_test.dart:75:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+        expect(assignmentProvider.activeAssignments.length, 3);
+                                  ^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:79:26: Error: The method 'toggleAssignmentCompletion' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing method, or defining a method named 'toggleAssignmentCompletion'.
+        assignmentProvider.toggleAssignmentCompletion(firstAssignment.id);
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:82:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+        expect(assignmentProvider.activeAssignments.length, 2);
+                                  ^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:135:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, 75.0);
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:147:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, 80.0);
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:159:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, closeTo(66.67, 0.01));
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:214:42: Error: Too few positional arguments: 2 required, 1 given.
+        assignmentProvider.updateAssignment(updated);
+                                           ^
+  test/integration_test.dart:219:21: Error: The getter 'course' isn't defined for the type 'Assignment'.
+   - 'Assignment' is from 'lib/models/assignment.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'course'.
+        expect(edited.course, 'Updated Course');
+                      ^^^^^^
+  test/integration_test.dart:220:21: Error: The getter 'type' isn't defined for the type 'Assignment'.
+   - 'Assignment' is from 'lib/models/assignment.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'type'.
+        expect(edited.type, AssignmentType.summative);
+                      ^^^^
+  test/integration_test.dart:235:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+        expect(assignmentProvider.activeAssignments.length, 0);
+                                  ^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:237:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, 0.0);
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:259:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, 100.0);
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:341:41: Error: The getter 'assignmentsByDueDate' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'assignmentsByDueDate'.
+        final sorted = assignmentProvider.assignmentsByDueDate;
+                                          ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:427:26: Error: The method 'toggleAssignmentCompletion' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing method, or defining a method named 'toggleAssignmentCompletion'.
+        assignmentProvider.toggleAssignmentCompletion('1');
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:444:33: Error: The getter 'activeAssignments' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'activeAssignments'.
+        expect(assignmentProvider.activeAssignments.length, 0);
+                                  ^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:450:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, 0.0);
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:464:30: Error: The getter 'attendancePercentage' isn't defined for the type 'SessionProvider'.
+   - 'SessionProvider' is from 'lib/providers/session_provider.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'attendancePercentage'.
+        expect(sessionProvider.attendancePercentage, 0.0);
+                               ^^^^^^^^^^^^^^^^^^^^
+  test/integration_test.dart:484:28: Error: The method 'toggleAssignmentCompletion' isn't defined for the type 'AssignmentProvider'.
+   - 'AssignmentProvider' is from 'lib/providers/assignment_provider.dart'.
+  Try correcting the name to the name of an existing method, or defining a method named 'toggleAssignmentCompletion'.
+          assignmentProvider.toggleAssignmentCompletion('$i');
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  .
+
+To run this test again: /home/hassan/snap/flutter/common/flutter/bin/cache/dart-sdk/bin/dart test /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart -p vm --plain-name 'loading /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/integration_test.dart'
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 911:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone.dart 1538:47                     _rootRunUnary
+  dart:async/zone.dart 1429:19                     _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone.dart 1525:13                     _rootRun
+  dart:async/zone.dart 1422:19                     _CustomZone.run
+  dart:async/zone.dart 1321:7                      _CustomZone.runGuarded
+  dart:async/zone.dart 1362:23                     _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+00:04 +0 -1: loading /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart                                                                                                 00:04 +0 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Save and load assignments successfully                     00:04 +0 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Save and load assignments successfully                     
+Successfully saved 2 assignments
+Successfully loaded 2 assignments
+All data cleared successfully
+00:04 +1 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Save and load assignments successfully                     00:04 +1 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Load returns empty list when no data exists                00:04 +1 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Load returns empty list when no data exists                
+No assignments data found in storage
+All data cleared successfully
+00:04 +2 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Load returns empty list when no data exists                00:04 +2 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Handle large dataset of assignments                        00:04 +2 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Handle large dataset of assignments                        
+Successfully saved 100 assignments
+Successfully loaded 100 assignments
+All data cleared successfully
+00:04 +3 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Handle large dataset of assignments                        00:04 +3 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Backup is created before save                              00:04 +3 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Backup is created before save                              
+Successfully saved 1 assignments
+Successfully saved 1 assignments
+All data cleared successfully
+00:04 +4 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Assignment Persistence Backup is created before save                              00:04 +4 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Save and load sessions successfully                           00:04 +4 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Save and load sessions successfully                           
+Successfully loaded 2 sessions
+All data cleared successfully
+00:04 +5 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Save and load sessions successfully                           00:04 +5 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Load returns empty list when no sessions exist                00:04 +5 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Load returns empty list when no sessions exist                
+No sessions data found in storage
+All data cleared successfully
+00:04 +6 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Load returns empty list when no sessions exist                00:04 +6 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Session with attendance recorded                              00:04 +6 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Session with attendance recorded                              
+Successfully loaded 1 sessions
+All data cleared successfully
+00:04 +7 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Session Persistence Session with attendance recorded                              00:04 +7 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Storage Statistics Get storage statistics                                         00:04 +7 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Storage Statistics Get storage statistics                                         
+Successfully saved 1 assignments
+All data cleared successfully
+00:05 +8 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/widget_test.dart: App smoke test                                                                                          00:05 +8 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/storage_test.dart: StorageService Tests Clear Data Clear all data including backups                                       
+Successfully saved 1 assignments
+All data cleared successfully
+No assignments data found in storage
+All data cleared successfully
+00:05 +9 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/widget_test.dart: App smoke test                                                                                          00:06 +9 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/widget_test.dart: App smoke test                                                                                          00:06 +10 -1: /home/hassan/flutter_linux_3.38.6-stable/student-assistant/test/widget_test.dart: App smoke test                                                                                         00:06 +10 -1: Some tests failed.                                                                                                                                                                       
