@@ -108,15 +108,48 @@ A comprehensive mobile application designed to help African Leadership Universit
 
 ## 📱 Screenshots
 
-> **Note**: Screenshots will be added here. Recommended screenshots:
-> - Dashboard overview
-> - Assignment list (Formative & Summative)
-> - Add/Edit Assignment form
-> - Schedule view with sessions
-> - Attendance tracking screen
-> - Attendance warning banner
+<div align="center">
 
-*Screenshot placeholders - To be added*
+### Dashboard - Main Overview
+<img src="screenshots/dashboard_1.jpeg" alt="Dashboard with Attendance Warning" width="250"/>
+<img src="screenshots/dahsboard_2.jpeg" alt="Dashboard with Assignments" width="250"/>
+
+*Dashboard showing today's date, attendance at-risk warning (50%), statistics cards (Active Projects, Today's Sessions, Attendance Rate), today's classes, and upcoming assignments due within 7 days*
+
+---
+
+### Assignment Management
+<img src="screenshots/assignments.jpeg" alt="Assignments Screen" width="250"/>
+
+*Assignments screen with tabs (All, Formative, Summative) showing assignment cards with course name, due dates, priority levels (High/Medium/Low), and assignment type badges. Includes edit and delete options*
+
+---
+
+### Schedule & Calendar
+<img src="screenshots/schedule.jpeg" alt="Schedule Calendar" width="250"/>
+
+*Calendar view for February 2026 showing scheduled sessions with visual indicators. Filter sessions by type: All, Class, Mastery Session, Study Group. Empty state message guides users to create their first session*
+
+---
+
+### Attendance Tracking
+<img src="screenshots/attendance.jpeg" alt="Attendance Tracking" width="250"/>
+
+*Attendance tracking screen displaying overall attendance percentage (50.0%) with at-risk status indicator, attended/missed session breakdown, weekly attendance progress bar, and attendance by session type*
+
+</div>
+
+### Key UI Features Shown:
+- ✅ **ALU Branding**: Navy blue (#0A1128) and yellow (#F4C430) color scheme
+- ✅ **Attendance Alerts**: Red warning banner when attendance < 75%
+- ✅ **Color-Coded Priorities**: High (Red), Medium (Orange/Yellow), Low (Green)
+- ✅ **Status Badges**: Assignment types, session types, and priority levels
+- ✅ **Responsive Cards**: Consistent card design across all screens
+- ✅ **Empty States**: Helpful messages with call-to-action buttons
+- ✅ **Floating Action Buttons**: Yellow FAB for adding new items
+- ✅ **Bottom Navigation**: Three tabs - Dashboard, Assignments, Schedule
+- ✅ **Visual Progress**: Circular attendance indicator with percentage
+- ✅ **Dark Theme**: Professional dark UI with proper contrast
 
 ---
 
